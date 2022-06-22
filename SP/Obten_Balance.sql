@@ -20,8 +20,8 @@ declare @obj int
     DECLARE @UserName nvarchar(100)
     DECLARE @Password nvarchar(100)
 	DECLARE @b64 varbinary(max)
-DECLARE @key varbinary(max) = CAST((select top 1 llave from Opciones where Elemento = 'key1' ) AS varbinary(max))
-DECLARE @user varchar(20) = (select top 1 llave from Opciones where Elemento = 'User1')
+    DECLARE @key varbinary(max) = CAST((select top 1 llave from Opciones where Elemento = 'key1' ) AS varbinary(max))
+    DECLARE @user varchar(20) = (select top 1 llave from Opciones where Elemento = 'User1')
 
 	Declare @Numerador as int =( SELECT datediff(ss,'1970-01-01', getdate()))
 
