@@ -7,6 +7,6 @@ EXEC Obten_Balance
 /*Valuación de monedas*/
 EXEC Obten_Tarjeta
 /*
-EXEC [Post_Compra_MXN_XRP] @CantidadXRP =10.5, @PrecioMN = 6.51;
-EXEC [Post_Venta_XRP_MXN]  @CantidadXRP =10.6, @PrecioMN = 6.51;
+EXEC [Post_Compra_MXN_XRP] @CantidadXRP =150, @PrecioMN =6.95; -6.508,6.44
+EXEC [Post_Venta_XRP_MXN]  @CantidadXRP =100, @PrecioMN = 7.52;
 */
